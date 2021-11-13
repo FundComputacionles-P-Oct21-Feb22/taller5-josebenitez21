@@ -1,0 +1,28 @@
+Problema 2
+Solución que imprima el costo de un pedido de un artículo del cual se tiene la descripción, 
+la cantidad que se requiere y el precio unitario. 
+Si la cantidad pedida excede de 50 unidades, se hace un descuento de 15%.
+
+1.Inicio
+2.costoTotal, d(0,n)
+3.cantidadRequerida, i(0,n)
+4.precioUnitario, d(0,n)
+5.Porcentaje<-- 15%
+6.Descuento
+7.nombre_articulo, x(50)[(a-z)(BS)(A-Z)
+8.Escribir " Ingresar Nombre del articulo"
+9.Lea nombre_articulo
+10.Escribir "Ingrese la Cantidad requerida"
+11.Lea cantidadRequerida
+12.Escribir "ingrese el Precio unitario"
+13.Lea precioUnitario
+14.costoTotal<-- (cantidadRequerida*precioUnitario)
+15.Si cantidadRequerida >50 entonces 
+16.    //costoTotal           100%
+17.   //     x                15%
+18.	Descuento <-- (Porcentaje *costoTotal)/100
+19.valorTotal <-- CostoTotal - Descuento
+20.Fin si 
+21. Escribir "el valorTotal:"+costoTotal+ "pertenece al articulo:" +nombre_articulo
+22.Fin
+ 
